@@ -25,13 +25,13 @@ Pour vérifier que tout fonctionne, tapez les lignes suivantes dans le terminal 
 
 Vous devriez avoir un résultat du type :
 
-	[daishi@box ~]$ php --version
+	[jibundeyare@box ~]$ php --version
 	PHP 7.1.2 (cli) (built: Feb 14 2017 21:24:49) ( NTS )
 	Copyright (c) 1997-2017 The PHP Group
 	Zend Engine v3.1.0, Copyright (c) 1998-2017 Zend Technologies
-	[daishi@box ~]$ git --version
+	[jibundeyare@box ~]$ git --version
 	git version 2.11.1
-	[daishi@box ~]$ composer --version
+	[jibundeyare@box ~]$ composer --version
 	Composer version 1.3.2 2017-01-27 18:23:41
 
 ## Utilisation
