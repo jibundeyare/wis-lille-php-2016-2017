@@ -6,4 +6,3 @@
 // - "nul" si $var est égal à zéro
 
 $var = rand(-10, 10);
-
