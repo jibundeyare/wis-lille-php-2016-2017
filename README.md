@@ -62,3 +62,26 @@ Vous pourrez alors afficher les scripts dans votre navigateurs.
 
 Par exemple tapez cette url dans votre navigateur : `http://localhost:8000/script.php`
 
+## Installation de paquets (composants, librairies, plugins)
+
+Ouvrez un terminal puis rendez-vous dans le dossier du projet avec la commande `cd`.
+
+Tapez :
+
+    cd wis-lille-php-2016-2017
+
+### Installation des composants requis dans `composer.json` :
+
+Dans le terminal déjà ouvert, tapez :
+
+	composer install
+
+### Première installation de doctrine/dbal
+
+Dans le terminal déjà ouvert, tapez :
+
+    composer require doctrine/dbal:^2.5
+
+## Framework css
+
+Certaines pages html utilisent le framework css [Bootstrap](http://getbootstrap.com/).

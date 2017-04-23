@@ -1,5 +1,8 @@
 <?php
 
+// intégrez du html dans votre script php afin de présenter les données sous la forme d'un tableau
+// vous devez utiliser le framework css boostrap pour rendre la page présentable
+
 // inclusion du script de connexion à la base de données
 require __DIR__ . '/doctrine-dbal-connect.php';
 

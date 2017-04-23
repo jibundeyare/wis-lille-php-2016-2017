@@ -1,7 +1,9 @@
 <?php
 
-require('vendor/autoload.php');
+// inclusion du script d'autoloading
+require __DIR__ . '/vendor/autoload.php';
 
+// paramètres de connexion à la base de données
 $config = new \Doctrine\DBAL\Configuration();
 
 $connectionParams = array(
@@ -12,10 +14,15 @@ $connectionParams = array(
     'driver' => 'pdo_mysql',
 );
 
+// connexion à la base de données
 try {
 	$conn = \Doctrine\DBAL\DriverManager::getConnection($connectionParams, $config);
 	$conn->connect();
 } catch (Exception $e) {
+	// interception d'une éventuelle erreur
+
+	// affichage de l'erreur
 	echo $e->getMessage();
+	// interruption du programme
 	exit();
 }
